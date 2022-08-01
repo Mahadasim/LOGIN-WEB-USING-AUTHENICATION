@@ -1,0 +1,89 @@
+﻿* {
+    font-family: Calibri, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('areas/pexels-johannes-plenio-1103970.jpg');
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+#Submit, #Clear{
+    width: 30%;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight:bold;
+    border: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight:bold;
+}
+#Clear{
+    margin-left:148px;
+}
+input[type=name], input[type=email] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#Submit:hover {
+    opacity: 0.7;
+    color: white;
+    background-color: black;
+}
+#Clear:hover {
+    opacity: 0.7;
+    color: white;
+    background-color: black;
+}
+.container {
+    background-color: #ced7d8;
+    opacity: 0.8;
+    padding: 25px;
+    width: 30%;
+    position: absolute;
+    margin-top: 90px;
+    left: 460px;
+    border-radius: 5px;
+}
+
+.table {
+    background-color: white;
+    padding:5px;
+    border-radius:5px;
+    margin-top:3px;
+}
+
+#DropDownList:hover {
+    font-weight: bold;
+}
+.label{
+    margin-top:3px;
+}
+#Cancel {
+    position: absolute;
+    top: 10px;
+    right:4px;
+    font-size: medium;
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight:bold;
+}
+#Cancel:hover {
+    opacity: 0.7;
+    color: white;
+    background-color: black;
+}
